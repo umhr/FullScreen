@@ -1,0 +1,206 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly AxInterop.ShockwaveFlashObjects.1.0, Version=1.0.*, Culture=ロケールに依存しない言語 (ロケールに依存しない国): 
+	hash=SHA1, flags=PublicKey
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly Interop.ShockwaveFlashObjects.1.0, Version=1.0.*, Culture=ロケールに依存しない言語 (ロケールに依存しない国): 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class AxShockwaveFlashObjects.AxShockwaveFlash: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.AxHost
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 ReadyState 'get ' : 
+    Int32 TotalFrames 'get ' : 
+    Boolean Playing 'get set' : 
+    Int32 Quality 'get set' : 
+    Int32 ScaleMode 'get set' : 
+    Int32 AlignMode 'get set' : 
+    Int32 BackgroundColor 'get set' : 
+    Boolean Loop 'get set' : 
+    System.String Movie 'get set' : 
+    Int32 FrameNum 'get set' : 
+    System.String WMode 'get set' : 
+    System.String SAlign 'get set' : 
+    Boolean Menu 'get set' : 
+    System.String Base 'get set' : 
+    System.String CtlScale 'get set' : 
+    Boolean DeviceFont 'get set' : 
+    Boolean EmbedMovie 'get set' : 
+    System.String BGColor 'get set' : 
+    System.String Quality2 'get set' : 
+    System.String SWRemote 'get set' : 
+    System.String FlashVars 'get set' : 
+    System.String AllowScriptAccess 'get set' : 
+    System.String MovieData 'get set' : 
+    System.Object InlineData 'get set' : 
+    Boolean SeamlessTabbing 'get set' : 
+    Boolean Profile 'get set' : 
+    System.String ProfileAddress 'get set' : 
+    Int32 ProfilePort 'get set' : 
+    System.String AllowNetworking 'get set' : 
+    System.String AllowFullScreen 'get set' : 
+  Events:
+    AxShockwaveFlashObjects._IShockwaveFlashEvents_OnReadyStateChangeEventHandler OnReadyStateChange: 
+    AxShockwaveFlashObjects._IShockwaveFlashEvents_OnProgressEventHandler OnProgress: 
+    AxShockwaveFlashObjects._IShockwaveFlashEvents_FSCommandEventHandler FSCommand: 
+    AxShockwaveFlashObjects._IShockwaveFlashEvents_FlashCallEventHandler FlashCall: 
+  Methods:
+    get_ReadyState(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_TotalFrames(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Playing(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Playing(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Quality(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Quality(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ScaleMode(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ScaleMode(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_AlignMode(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_AlignMode(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_BackgroundColor(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_BackgroundColor(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Loop(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Loop(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Movie(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Movie(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_FrameNum(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_FrameNum(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_WMode(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_WMode(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_SAlign(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_SAlign(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Menu(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Menu(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Base(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Base(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_CtlScale(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_CtlScale(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_DeviceFont(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_DeviceFont(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_EmbedMovie(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_EmbedMovie(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_BGColor(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_BGColor(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Quality2(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Quality2(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_SWRemote(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_SWRemote(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_FlashVars(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_FlashVars(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_AllowScriptAccess(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_AllowScriptAccess(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_MovieData(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_MovieData(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_InlineData(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_InlineData(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_SeamlessTabbing(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_SeamlessTabbing(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Profile(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Profile(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ProfileAddress(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ProfileAddress(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ProfilePort(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ProfilePort(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_AllowNetworking(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_AllowNetworking(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_AllowFullScreen(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_AllowFullScreen(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    add_OnReadyStateChange(_IShockwaveFlashEvents_OnReadyStateChangeEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_OnReadyStateChange(_IShockwaveFlashEvents_OnReadyStateChangeEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_OnProgress(_IShockwaveFlashEvents_OnProgressEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_OnProgress(_IShockwaveFlashEvents_OnProgressEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_FSCommand(_IShockwaveFlashEvents_FSCommandEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_FSCommand(_IShockwaveFlashEvents_FSCommandEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_FlashCall(_IShockwaveFlashEvents_FlashCallEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_FlashCall(_IShockwaveFlashEvents_FlashCallEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    CallFunction(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    SetReturnValue(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DisableLocalSecurity(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    TPlay(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    TStopPlay(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    SetVariable(String, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetVariable(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    TSetProperty(String, Int32, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    TGetProperty(String, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    TCallFrame(String, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    TCallLabel(String, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    TSetPropertyNum(String, Int32, Double): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    TGetPropertyNum(String, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    TGetPropertyAsNumber(String, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EnforceLocalSecurity(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CurrentFrame(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    IsPlaying(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    PercentLoaded(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    FrameLoaded(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    FlashVersion(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    LoadMovie(Int32, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    TGotoFrame(String, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    TGotoLabel(String, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    TCurrentFrame(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    TCurrentLabel(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    SetZoomRect(Int32, Int32, Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Zoom(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Pan(Int32, Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Play(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Stop(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Back(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Forward(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Rewind(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    StopPlay(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GotoFrame(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxShockwaveFlashObjects._IShockwaveFlashEvents_OnReadyStateChangeEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _IShockwaveFlashEvents_OnReadyStateChangeEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _IShockwaveFlashEvents_OnReadyStateChangeEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxShockwaveFlashObjects._IShockwaveFlashEvents_OnReadyStateChangeEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 newState : Public
+Class AxShockwaveFlashObjects._IShockwaveFlashEvents_OnProgressEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _IShockwaveFlashEvents_OnProgressEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _IShockwaveFlashEvents_OnProgressEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxShockwaveFlashObjects._IShockwaveFlashEvents_OnProgressEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 percentDone : Public
+Class AxShockwaveFlashObjects._IShockwaveFlashEvents_FSCommandEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _IShockwaveFlashEvents_FSCommandEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _IShockwaveFlashEvents_FSCommandEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxShockwaveFlashObjects._IShockwaveFlashEvents_FSCommandEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String command : Public
+    System.String args : Public
+Class AxShockwaveFlashObjects._IShockwaveFlashEvents_FlashCallEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _IShockwaveFlashEvents_FlashCallEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _IShockwaveFlashEvents_FlashCallEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxShockwaveFlashObjects._IShockwaveFlashEvents_FlashCallEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String request : Public
+Class AxShockwaveFlashObjects.AxShockwaveFlashEventMulticaster: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(AxShockwaveFlashObjects.AxShockwaveFlash): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    ShockwaveFlashObjects._IShockwaveFlashEvents
+  Methods:
+    OnReadyStateChange(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    OnProgress(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    FSCommand(String, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    FlashCall(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask

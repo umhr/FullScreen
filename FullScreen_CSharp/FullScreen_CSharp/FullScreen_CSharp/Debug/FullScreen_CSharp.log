@@ -1,0 +1,32 @@
+﻿2012/06/19 22:24:58 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "E:\DropBox\flashstudies\1206\FullScreen_CSharp\FullScreen_CSharp\FullScreen_CSharp\FullScreen_CSharp.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Debug\FullScreen_CSharp.unsuccessfulbuild" を作成しています。
+       GenerateTargetFrameworkMonikerAttribute:
+       すべての出力ファイルが入力ファイルに対して最新なので、ターゲット "GenerateTargetFrameworkMonikerAttribute" を省略します。
+       ClCompile:
+         すべての出力が最新のものです。
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\FullScreen_CSharp.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /FUInterop\Interop.ShockwaveFlashObjects.1.0.dll /FUInterop\AxInterop.ShockwaveFlashObjects.1.0.dll /analyze- /errorReport:prompt FullScreen_CSharp.cpp /clr:nostdlib 
+         FullScreen_CSharp.cpp
+         すべての出力が最新のものです。
+       CoreResGen:
+         すべての出力が最新のものです。
+       ResourceCompile:
+         すべての出力が最新のものです。
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Dropbox\flashstudies\1206\FullScreen_CSharp\FullScreen_CSharp\Debug\FullScreen_CSharp.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\FullScreen_CSharp.Form1.resources /MANIFEST /ManifestFile:"Debug\FullScreen_CSharp.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Dropbox\flashstudies\1206\FullScreen_CSharp\FullScreen_CSharp\Debug\FullScreen_CSharp.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\FullScreen_CSharp.obj
+         Debug\stdafx.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         FullScreen_CSharp.vcxproj -> E:\Dropbox\flashstudies\1206\FullScreen_CSharp\FullScreen_CSharp\Debug\FullScreen_CSharp.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\Dropbox\flashstudies\1206\FullScreen_CSharp\FullScreen_CSharp\Debug\FullScreen_CSharp.exe;#1" /manifest Debug\FullScreen_CSharp.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         ファイル "Debug\FullScreen_CSharp.unsuccessfulbuild" を削除しています。
+         "Debug\FullScreen_CSharp.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "E:\DropBox\flashstudies\1206\FullScreen_CSharp\FullScreen_CSharp\FullScreen_CSharp\FullScreen_CSharp.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:02.33
